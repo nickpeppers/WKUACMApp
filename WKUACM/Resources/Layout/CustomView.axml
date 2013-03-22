@@ -3,8 +3,9 @@
     android:id="@+id/Text"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:paddingLeft="10dip">
+    android:layout_height="100dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
     <LinearLayout
         android:id="@+id/DateLocation"
         android:orientation="horizontal"

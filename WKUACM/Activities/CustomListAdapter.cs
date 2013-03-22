@@ -44,6 +44,7 @@ namespace WKUACM
 			view.FindViewById<TextView>(Resource.Id.Location).Text = item.Location;
 			view.FindViewById<TextView>(Resource.Id.Speaker).Text = item.Speaker;
 			view.FindViewById<TextView>(Resource.Id.Description).Text = item.Description;
+			view.LayoutParameters = new ListView.LayoutParams(ViewGroup.LayoutParams.FillParent, 160);
 			return view;
 		}
 	}

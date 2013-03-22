@@ -1,11 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WKUACM\Properties\AndroidManifest.xml">
-    <Files>
-      <File FileName="WKUACM\Activities\CustomListAdapter.cs" Line="26" Column="25" />
-      <File FileName="WKUACM\Activities\Main.cs" Line="19" Column="4" />
-      <File FileName="WKUACM\Properties\AndroidManifest.xml" Line="6" Column="12" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True" selected="True">
@@ -25,5 +20,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.WKUACM MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
+  <MonoDevelop.Ide.ItemProperties.WKUACM MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Debug="LG-E970-cd0ed7e2" />
 </Properties>
