@@ -1,15 +1,20 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="WKUACM\Activities\Main.cs" Line="29" Column="27" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True" selected="True">
+        <State expanded="True">
           <Node name="WKUACM" expanded="True">
             <Node name="Activities" expanded="True" />
             <Node name="Properties" expanded="True" />
             <Node name="Resources" expanded="True">
               <Node name="Drawable" expanded="True" />
-              <Node name="Layout" expanded="True" />
+              <Node name="Layout" expanded="True">
+                <Node name="CustomView.axml" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
