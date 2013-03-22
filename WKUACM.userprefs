@@ -1,15 +1,20 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="WKUACM\Properties\AndroidManifest.xml">
+    <Files>
+      <File FileName="WKUACM\Activities\CustomListAdapter.cs" Line="26" Column="25" />
+      <File FileName="WKUACM\Activities\Main.cs" Line="19" Column="4" />
+      <File FileName="WKUACM\Properties\AndroidManifest.xml" Line="6" Column="12" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True">
+        <State expanded="True" selected="True">
           <Node name="WKUACM" expanded="True">
+            <Node name="Activities" expanded="True" />
+            <Node name="Properties" expanded="True" />
             <Node name="Resources" expanded="True">
               <Node name="Drawable" expanded="True" />
-              <Node name="Layout" expanded="True">
-                <Node name="SplashScreenLayout.axml" selected="True" />
-              </Node>
+              <Node name="Layout" expanded="True" />
             </Node>
           </Node>
         </State>

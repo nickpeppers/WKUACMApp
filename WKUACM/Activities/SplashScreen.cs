@@ -14,7 +14,7 @@ using System.Threading;
 
 namespace WKUACM.Activities
 {
-    [Activity(Label = "Splash Screen", MainLauncher = true, Icon = "@drawable/Icon", ScreenOrientation=ScreenOrientation.Portrait, ConfigurationChanges=ConfigChanges.Orientation)]
+    [Activity(MainLauncher = true, Icon = "@drawable/Icon", ScreenOrientation=ScreenOrientation.Portrait, ConfigurationChanges=ConfigChanges.Orientation)]
     public class SplashScreen : Activity
     {
         private Animation _fadeIn,
