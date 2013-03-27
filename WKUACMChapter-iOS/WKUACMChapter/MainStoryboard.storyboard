@@ -125,6 +125,14 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="BlackPixelLine.png" id="y9y-IG-ar6">
+                                <rect key="frame" x="0.0" y="454" width="320" height="1"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="BlackPixelLine.png" id="5n2-tc-bZn">
+                                <rect key="frame" x="0.0" y="25" width="320" height="1"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="e2g-0u-mVg">
                                 <rect key="frame" x="0.0" y="454" width="320" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -153,6 +161,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="BlackPixelLine.png" width="1" height="1"/>
         <image name="WKULogoWhite250x250.png" width="250" height="250"/>
         <image name="acmLogo125x125.png" width="125" height="125"/>
     </resources>
