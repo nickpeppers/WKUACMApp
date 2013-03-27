@@ -13,12 +13,20 @@ namespace WKUACMChapter
 	{
 		[Outlet]
 		MonoTouch.UIKit.UIButton _acmLink { get; set; }
+
+		[Outlet]
+		MonoTouch.UIKit.UITableView _table { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
 			if (_acmLink != null) {
 				_acmLink.Dispose ();
 				_acmLink = null;
+			}
+
+			if (_table != null) {
+				_table.Dispose ();
+				_table = null;
 			}
 		}
 	}

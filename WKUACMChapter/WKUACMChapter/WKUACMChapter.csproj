@@ -105,6 +105,10 @@
     <Compile Include="SplashScreenController.designer.cs">
       <DependentUpon>SplashScreenController.cs</DependentUpon>
     </Compile>
+    <Compile Include="MainCell.cs" />
+    <Compile Include="MainCell.designer.cs">
+      <DependentUpon>MainCell.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard.storyboard" />
@@ -113,5 +117,6 @@
   <ItemGroup>
     <BundleResource Include="Resources\acmLogo125x125.png" />
     <BundleResource Include="Resources\WKULogoTransparent250x250.png" />
+    <BundleResource Include="Resources\WKULogoWhite250x250.png" />
   </ItemGroup>
 </Project>
