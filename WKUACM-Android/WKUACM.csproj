@@ -55,6 +55,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Activities\CustomListAdapter.cs" />
     <Compile Include="Activities\TableItem.cs" />
+    <Compile Include="Activities\ClubContactInfoActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -64,6 +65,8 @@
     </AndroidResource>
     <AndroidResource Include="Resources\Layout\CustomView.axml" />
     <AndroidResource Include="Resources\Drawable\Icon.png" />
+    <AndroidResource Include="Resources\Drawable\WhitePixelLine.png" />
+    <AndroidResource Include="Resources\Layout\ClubContactInfoLayout.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Layout\Main.axml" />

@@ -28,7 +28,13 @@ namespace WKUACM
 				var intent = new Intent(Intent.ActionView, Android.Net.Uri.Parse(UrlText.Text));
 				StartActivity(intent);
 			};
-			
+
+			TextView ContactInfo = (TextView) FindViewById(Resource.Id.ContactInfo);
+			ContactInfo.Click += (sender, e) => 
+			{
+				StartActivity(typeof(ClubContactInfoActivity));
+			};
+
 			tableItems.Add(new TableItem() { Date = "3/27/2013 5:00 P.M.", Location = "SH 1102", Speaker = "Dr. Wang", Description = "Presentation on data mining" });
 			tableItems.Add(new TableItem() { Date = "2/20/2013 5:00 P.M.", Location = "SH 1101", Speaker = "Mike Maddox", Description = "Introduction of Fiserv" });
 			tableItems.Add(new TableItem() { Date = "11/28/2012 5:00 P.M.", Location = "SH 1101", Speaker = "Jon Peppers", Description = "Talk on Xamarin mobile development" });

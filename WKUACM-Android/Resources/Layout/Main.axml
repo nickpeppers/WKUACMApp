@@ -12,6 +12,12 @@
         android:textSize="24sp"
         android:padding="3dp"
         android:gravity="center_horizontal" />
+    <ImageView
+        android:src="@drawable/WhitePixelLine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:id="@+id/imageView1" />
     <ListView
         android:minWidth="25px"
         android:minHeight="25px"
@@ -23,6 +29,12 @@
         android:headerDividersEnabled="true"
         android:footerDividersEnabled="true"
         android:layout_weight="1" />
+    <ImageView
+        android:src="@drawable/WhitePixelLine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:scaleType="fitXY" />
     <TextView
         android:text="Club Contact Information"
         android:layout_width="fill_parent"
