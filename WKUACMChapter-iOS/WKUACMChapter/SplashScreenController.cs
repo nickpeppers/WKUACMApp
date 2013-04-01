@@ -11,6 +11,22 @@ namespace WKUACMChapter
 		{
 		}
 
+        [Obsolete ("Deprecated in iOS6. Replace it with both GetSupportedInterfaceOrientations and PreferredInterfaceOrientationForPresentation")]
+        public override bool ShouldAutorotateToInterfaceOrientation(UIInterfaceOrientation toInterfaceOrientation)
+        {
+            return toInterfaceOrientation == UIInterfaceOrientation.Portrait;
+        }
+        
+        public override bool ShouldAutorotate()
+        {
+            return false;
+        }
+        
+        public override UIInterfaceOrientationMask GetSupportedInterfaceOrientations()
+        {
+            return UIInterfaceOrientationMask.Portrait;
+        }
+
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
