@@ -4,14 +4,23 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:id="@+id/linearLayout1">
-    <TextView
-        android:text="http://www.acm.org/"
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/ACMWebSite"
-        android:textSize="24sp"
-        android:padding="3dp"
-        android:gravity="center_horizontal" />
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:text="http://www.acm.org/"
+            android:id="@+id/ACMWebSite"
+            android:textSize="24sp"
+            android:padding="3dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
     <ImageView
         android:src="@drawable/WhitePixelLine"
         android:layout_width="fill_parent"
