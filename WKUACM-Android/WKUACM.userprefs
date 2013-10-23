@@ -1,23 +1,25 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Activities\SettingsActivity.cs">
     <Files>
-      <File FileName="Activities\Main.cs" Line="55" Column="42" />
       <File FileName="Activities\ClubContactInfoActivity.cs" Line="1" Column="1" />
+      <File FileName="Activities\SettingsActivity.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="WKUACM" expanded="True">
-            <Node name="Activities" expanded="True" />
-            <Node name="Assets" expanded="True" />
-            <Node name="Properties" expanded="True" />
-            <Node name="Resources" expanded="True">
-              <Node name="Drawable" expanded="True" selected="True" />
-              <Node name="Layout" expanded="True" />
+            <Node name="Activities" expanded="True">
+              <Node name="SettingsActivity.cs" selected="True" />
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
@@ -25,5 +27,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.WKUACM MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Debug="LG-E970-cd0ed7e2" AndroidDeviceId-Release="004a52aacd0ed7e2" />
+  <MonoDevelop.Ide.ItemProperties.WKUACM MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Debug="LG-E970-cd0ed7e2" AndroidDeviceId-Release="20080411413fc082" />
 </Properties>

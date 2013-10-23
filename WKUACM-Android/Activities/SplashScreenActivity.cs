@@ -15,7 +15,7 @@ using System.Threading;
 namespace WKUACM.Activities
 {
     [Activity(MainLauncher = true, Icon = "@drawable/Icon", ScreenOrientation=ScreenOrientation.Portrait, ConfigurationChanges=ConfigChanges.Orientation)]
-    public class SplashScreen : Activity
+    public class SplashScreenActivity : Activity
     {
         private Animation _fadeIn,
              _fadeOut;
@@ -39,7 +39,7 @@ namespace WKUACM.Activities
 
             _fadeOut.AnimationEnd += (sender, e) =>
             {
-                var intent = new Intent(this, typeof(Main));
+                var intent = new Intent(this, typeof(MainActivity));
                 StartActivity(intent);
                 _splashLayout.Visibility = ViewStates.Gone;
 

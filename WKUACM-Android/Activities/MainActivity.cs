@@ -6,11 +6,12 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using System.Collections.Generic;
+using WKUACM.Activities;
 
 namespace WKUACM
 {
     [Activity(Label = "Main Activity")]
-    public class Main : Activity
+    public class MainActivity : Activity
     {
 		List<TableItem> tableItems = new List<TableItem>();
 		ListView listView;
@@ -21,6 +22,12 @@ namespace WKUACM
 			
 			SetContentView(Resource.Layout.Main);
 			listView = FindViewById<ListView>(Resource.Id.listView1);
+            var settingsButton = FindViewById<ImageButton>(Resource.Id.SettingsButton);
+
+            settingsButton.Click += (sender, e) =>
+            {
+               StartActivity(typeof(SettingsActivity));
+            };
 
 			TextView UrlText = (TextView) FindViewById(Resource.Id.ACMWebSite);
 			UrlText.Click += (sender, e) => 
