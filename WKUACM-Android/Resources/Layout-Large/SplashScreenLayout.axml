@@ -9,14 +9,14 @@
     android:minHeight="25px">
     <ImageView
         android:src="@drawable/ACMConnectLogo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
         android:layout_centerHorizontal="true"
         android:id="@+id/ACMConnectLogo" />
     <ImageView
         android:src="@drawable/WKULogoTransparent250x250"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/ACMConnectLogo"
         android:layout_centerHorizontal="true"
         android:id="@+id/wkuLogo"
@@ -27,7 +27,7 @@
         android:id="@+id/acmLogo"
         android:src="@drawable/acmLogo125x125"
         android:layout_below="@+id/wkuLogo"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>

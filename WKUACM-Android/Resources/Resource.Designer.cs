@@ -64,19 +64,22 @@ namespace WKUACM
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int acmLogo125x125 = 2130837504;
+			public const int ACMConnectLogo = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int Icon = 2130837505;
+			public const int acmLogo125x125 = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int Settings30x30 = 2130837506;
+			public const int Icon = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int WhitePixelLine = 2130837507;
+			public const int Settings30x30 = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int WKULogoTransparent250x250 = 2130837508;
+			public const int WhitePixelLine = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int WKULogoTransparent250x250 = 2130837509;
 			
 			static Drawable()
 			{
@@ -90,6 +93,9 @@ namespace WKUACM
 		
 		public partial class Id
 		{
+			
+			// aapt resource value: 0x7f06001e
+			public const int ACMConnectLogo = 2131099678;
 			
 			// aapt resource value: 0x7f060017
 			public const int ACMWebSite = 2131099671;
@@ -133,8 +139,8 @@ namespace WKUACM
 			// aapt resource value: 0x7f060010
 			public const int Text = 2131099664;
 			
-			// aapt resource value: 0x7f06001f
-			public const int acmLogo = 2131099679;
+			// aapt resource value: 0x7f060020
+			public const int acmLogo = 2131099680;
 			
 			// aapt resource value: 0x7f060000
 			public const int imageView1 = 2131099648;
@@ -184,8 +190,8 @@ namespace WKUACM
 			// aapt resource value: 0x7f06001c
 			public const int toggleButton1 = 2131099676;
 			
-			// aapt resource value: 0x7f06001e
-			public const int wkuLogo = 2131099678;
+			// aapt resource value: 0x7f06001f
+			public const int wkuLogo = 2131099679;
 			
 			static Id()
 			{

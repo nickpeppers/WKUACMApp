@@ -66,11 +66,27 @@
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\Layout\CustomView.axml" />
-    <AndroidResource Include="Resources\Drawable\Icon.png" />
-    <AndroidResource Include="Resources\Drawable\WhitePixelLine.png" />
     <AndroidResource Include="Resources\Layout\ClubContactInfoLayout.axml" />
-    <AndroidResource Include="Resources\Drawable\Settings30x30.png" />
     <AndroidResource Include="Resources\Layout\SettingsLayout.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable-hdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable\acmLogo125x125.png" />
+    <AndroidResource Include="Resources\drawable\Icon.png" />
+    <AndroidResource Include="Resources\drawable\Settings30x30.png" />
+    <AndroidResource Include="Resources\drawable\WhitePixelLine.png" />
+    <AndroidResource Include="Resources\drawable\WKULogoTransparent250x250.png" />
+    <AndroidResource Include="Resources\drawable\ACMConnectLogo.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ACMConnectLogo.png" />
+    <AndroidResource Include="Resources\Layout-Large\ClubContactInfoLayout.axml" />
+    <AndroidResource Include="Resources\Layout-Large\CustomView.axml" />
+    <AndroidResource Include="Resources\Layout-Large\Main.axml" />
+    <AndroidResource Include="Resources\Layout-Large\SettingsLayout.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout-Large\SplashScreenLayout.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -79,12 +95,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Values\Strings.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\Drawable\WKULogoTransparent250x250.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\Drawable\acmLogo125x125.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Anim\splash_fade_out.xml" />
@@ -103,4 +113,11 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <ItemGroup>
+    <Folder Include="Resources\drawable-hdpi\" />
+    <Folder Include="Resources\drawable-xhdpi\" />
+    <Folder Include="Resources\drawable-xxhdpi\" />
+    <Folder Include="Resources\drawable\" />
+    <Folder Include="Resources\Layout-Large\" />
+  </ItemGroup>
 </Project>
