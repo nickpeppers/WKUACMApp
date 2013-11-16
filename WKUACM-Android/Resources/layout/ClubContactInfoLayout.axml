@@ -4,148 +4,194 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
     <ImageView
-        android:src="@drawable/WhitePixelLine"
+        android:src="@drawable/ACMConnectLogo"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:scaleType="fitXY"
-        android:id="@+id/imageView1" />
+        android:id="@+id/imageView3"
+        android:background="#ff373333"
+        android:padding="15dp" />
     <LinearLayout
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:minWidth="25px"
         android:minHeight="25px"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/linearLayout1">
-        <TextView
-            android:text="Chapter Advisor: "
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:textSize="18sp"
-            android:id="@+id/textView1"
-            android:padding="3dp" />
-        <TextView
-            android:text="Dr. Qi Li"
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:textSize="18sp"
-            android:id="@+id/textView2"
-            android:layout_weight="1"
-            android:padding="3dp" />
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/linearLayout2">
-        <TextView
-            android:text="Email: "
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:textSize="18sp"
-            android:id="@+id/textView3"
-            android:padding="3dp" />
-        <TextView
-            android:text="qi.li@wku.edu"
-            android:id="@+id/AdvisorEmail"
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:textSize="18sp"
-            android:layout_weight="1"
-            android:padding="3dp"
-            android:linksClickable="true"
-            android:clickable="true"
-            android:autoLink="email" />
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/linearLayout3">
-        <TextView
-            android:text="Phone Number: "
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:textSize="18sp"
-            android:id="@+id/textView5"
-            android:padding="3dp" />
-        <TextView
-            android:text="(270)-992-8662"
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:textSize="18sp"
-            android:id="@+id/AdvisorPhone"
-            android:layout_weight="1"
-            android:padding="3dp"
-            android:phoneNumber="true"
-            android:linksClickable="true"
-            android:clickable="true"
-            android:autoLink="phone" />
-    </LinearLayout>
-    <ImageView
-        android:src="@drawable/WhitePixelLine"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:scaleType="fitXY"
-        android:id="@+id/imageView1"
-        android:layout_marginTop="2dp" />
-    <LinearLayout
-        android:orientation="horizontal"
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/linearLayout4">
-        <TextView
-            android:text="President: "
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:textSize="18sp"
-            android:id="@+id/textView7"
-            android:padding="3dp" />
-        <TextView
-            android:text="Bryan Knowles"
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:textSize="18sp"
-            android:id="@+id/textView8"
-            android:layout_weight="1"
-            android:padding="3dp" />
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/linearLayout5">
-        <TextView
-            android:text="Email: "
-            android:id="@+id/textView9"
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:textSize="18sp"
-            android:padding="3dp" />
-        <TextView
-            android:text="bryan.knowles951@topper.wku.edu"
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:textSize="18sp"
-            android:id="@+id/PresidentEmail"
-            android:padding="3dp"
-            android:layout_weight="1"
-            android:clickable="true"
-            android:linksClickable="true"
-            android:autoLink="email" />
+        android:id="@+id/linearLayout6"
+        android:padding="3dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1">
+            <TextView
+                android:text="Chapter Advisor: "
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textSize="18sp"
+                android:id="@+id/textView1"
+                android:padding="3dp" />
+            <TextView
+                android:text="Dr. Qi Li"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textSize="18sp"
+                android:id="@+id/textView2"
+                android:layout_weight="1"
+                android:padding="3dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2">
+            <TextView
+                android:text="Email: "
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textSize="18sp"
+                android:id="@+id/textView3"
+                android:padding="3dp" />
+            <TextView
+                android:text="qi.li@wku.edu"
+                android:id="@+id/AdvisorEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:linksClickable="true"
+                android:clickable="true"
+                android:autoLink="email" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout3">
+            <TextView
+                android:text="Phone Number: "
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textSize="18sp"
+                android:id="@+id/textView5"
+                android:padding="3dp" />
+            <TextView
+                android:text="(270)-992-8662"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textSize="18sp"
+                android:id="@+id/AdvisorPhone"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:phoneNumber="true"
+                android:linksClickable="true"
+                android:clickable="true"
+                android:autoLink="phone" />
+        </LinearLayout>
     </LinearLayout>
     <ImageView
-        android:src="@drawable/WhitePixelLine"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="2dp"
         android:scaleType="fitXY"
         android:id="@+id/imageView1"
-        android:layout_marginTop="2dp" />
+        android:layout_marginTop="2dp"
+        android:background="#ff373333" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout7"
+        android:padding="3dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout4">
+            <TextView
+                android:text="President: "
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textSize="18sp"
+                android:id="@+id/textView7"
+                android:padding="3dp" />
+            <TextView
+                android:text="Bryan Knowles"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textSize="18sp"
+                android:id="@+id/textView8"
+                android:layout_weight="1"
+                android:padding="3dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout5">
+            <TextView
+                android:text="Email: "
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textSize="18sp"
+                android:padding="3dp" />
+            <TextView
+                android:text="bryan.knowles951@topper.wku.edu"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textSize="18sp"
+                android:id="@+id/PresidentEmail"
+                android:padding="3dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:autoLink="email" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout3">
+            <TextView
+                android:text="Phone Number: "
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textSize="18sp"
+                android:id="@+id/textView5"
+                android:padding="3dp" />
+            <TextView
+                android:text="(270)-992-8662"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textSize="18sp"
+                android:id="@+id/AdvisorPhone"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:phoneNumber="true"
+                android:linksClickable="true"
+                android:clickable="true"
+                android:autoLink="phone" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:scaleType="fitXY"
+        android:id="@+id/imageView1"
+        android:layout_marginTop="2dp"
+        android:background="#ff373333" />
 </LinearLayout>
