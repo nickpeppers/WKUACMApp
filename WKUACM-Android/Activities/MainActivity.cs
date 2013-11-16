@@ -22,22 +22,15 @@ namespace WKUACM
 			
 			SetContentView(Resource.Layout.Main);
 			listView = FindViewById<ListView>(Resource.Id.listView1);
-            var settingsButton = FindViewById<ImageButton>(Resource.Id.SettingsButton);
+			var settingsButton = FindViewById<Button>(Resource.Id.SettingsButton);
+			var clubContactButton = FindViewById<Button>(Resource.Id.ClubContactButton);
 
             settingsButton.Click += (sender, e) =>
             {
                StartActivity(typeof(SettingsActivity));
             };
 
-			TextView UrlText = (TextView) FindViewById(Resource.Id.ACMWebSite);
-			UrlText.Click += (sender, e) => 
-			{
-				var intent = new Intent(Intent.ActionView, Android.Net.Uri.Parse(UrlText.Text));
-				StartActivity(intent);
-			};
-
-			TextView ContactInfo = (TextView) FindViewById(Resource.Id.ContactInfo);
-			ContactInfo.Click += (sender, e) => 
+			clubContactButton.Click += (sender, e) => 
 			{
 				StartActivity(typeof(ClubContactInfoActivity));
 			};

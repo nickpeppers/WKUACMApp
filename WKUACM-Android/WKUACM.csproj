@@ -62,14 +62,6 @@
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
-    <AndroidResource Include="Resources\Layout\SplashScreenLayout.axml">
-      <SubType>AndroidResource</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\Layout\CustomView.axml" />
-    <AndroidResource Include="Resources\Layout\ClubContactInfoLayout.axml" />
-    <AndroidResource Include="Resources\Layout\SettingsLayout.axml">
-      <SubType>AndroidResource</SubType>
-    </AndroidResource>
     <AndroidResource Include="Resources\drawable-hdpi\Icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\Icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
@@ -80,27 +72,20 @@
     <AndroidResource Include="Resources\drawable\WKULogoTransparent250x250.png" />
     <AndroidResource Include="Resources\drawable\ACMConnectLogo.png" />
     <AndroidResource Include="Resources\drawable-hdpi\ACMConnectLogo.png" />
-    <AndroidResource Include="Resources\Layout-Large\ClubContactInfoLayout.axml" />
-    <AndroidResource Include="Resources\Layout-Large\CustomView.axml" />
-    <AndroidResource Include="Resources\Layout-Large\Main.axml" />
-    <AndroidResource Include="Resources\Layout-Large\SettingsLayout.axml">
-      <SubType>AndroidResource</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\Layout-Large\SplashScreenLayout.axml">
-      <SubType>AndroidResource</SubType>
-    </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\Layout\Main.axml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\Values\Strings.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\Anim\splash_fade_out.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\Anim\splash_fade_in.xml" />
+    <AndroidResource Include="Resources\anim\splash_fade_in.xml" />
+    <AndroidResource Include="Resources\anim\splash_fade_out.xml" />
+    <AndroidResource Include="Resources\layout\ClubContactInfoLayout.axml" />
+    <AndroidResource Include="Resources\layout\CustomView.axml" />
+    <AndroidResource Include="Resources\layout\Main.axml" />
+    <AndroidResource Include="Resources\layout\SettingsLayout.axml" />
+    <AndroidResource Include="Resources\layout\SplashScreenLayout.axml" />
+    <AndroidResource Include="Resources\layout-large\ClubContactInfoLayout.axml" />
+    <AndroidResource Include="Resources\layout-large\CustomView.axml" />
+    <AndroidResource Include="Resources\layout-large\Main.axml" />
+    <AndroidResource Include="Resources\layout-large\SettingsLayout.axml" />
+    <AndroidResource Include="Resources\layout-large\SplashScreenLayout.axml" />
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\drawable\Button.png" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\AndroidManifest.xml" />
@@ -118,6 +103,9 @@
     <Folder Include="Resources\drawable-xhdpi\" />
     <Folder Include="Resources\drawable-xxhdpi\" />
     <Folder Include="Resources\drawable\" />
-    <Folder Include="Resources\Layout-Large\" />
+    <Folder Include="Resources\anim\" />
+    <Folder Include="Resources\layout\" />
+    <Folder Include="Resources\layout-large\" />
+    <Folder Include="Resources\values\" />
   </ItemGroup>
 </Project>
