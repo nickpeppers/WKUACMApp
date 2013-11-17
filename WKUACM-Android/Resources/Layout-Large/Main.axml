@@ -51,4 +51,7 @@
             android:layout_weight="1"
             android:background="@drawable/Button" />
     </LinearLayout>
+<!-- Property Change Conflict | id:@+id/button2 | id=@+id/SettingsButton -->
+<!-- Property Change Conflict | id:@+id/ClubContactButton | textColor=#ffffffff -->
+<!-- Property Change Conflict | id:@+id/SettingsButton | textColor=#ffffffff -->
 </LinearLayout>

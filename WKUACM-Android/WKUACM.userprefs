@@ -1,9 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Activities\MainActivity.cs">
+    <Files>
+      <File FileName="Activities\MainActivity.cs" Line="25" Column="72" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.WKUACM MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Debug="LG-E970-cd0ed7e2" AndroidDeviceId-Release="20080411413fc082" />
+  <MonoDevelop.Ide.ItemProperties.WKUACM MonoForAntroid.PreferredDevice="Nexus 4" AndroidDeviceId-Debug="004a52aacd0ed7e2" AndroidDeviceId-Release="004a52aacd0ed7e2" />
 </Properties>

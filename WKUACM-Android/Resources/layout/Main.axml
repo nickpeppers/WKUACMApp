@@ -27,7 +27,7 @@
         android:minWidth="25px"
         android:minHeight="25px"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:id="@+id/linearLayout2">
         <Button
             android:text="Club Contact"
@@ -35,7 +35,8 @@
             android:layout_height="match_parent"
             android:id="@+id/ClubContactButton"
             android:layout_weight="1"
-            android:background="@drawable/Button" />
+            android:background="@drawable/Button"
+            android:textColor="#ffffffff" />
         <ImageView
             android:layout_width="3dp"
             android:layout_height="match_parent"
@@ -45,8 +46,9 @@
             android:text="Settings"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/button2"
+            android:id="@+id/SettingsButton"
             android:layout_weight="1"
-            android:background="@drawable/Button" />
+            android:background="@drawable/Button"
+            android:textColor="#ffffffff" />
     </LinearLayout>
 </LinearLayout>

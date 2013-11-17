@@ -97,8 +97,8 @@ namespace WKUACM
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060021
-			public const int ACMConnectLogo = 2131099681;
+			// aapt resource value: 0x7f060020
+			public const int ACMConnectLogo = 2131099680;
 			
 			// aapt resource value: 0x7f060007
 			public const int AdvisorEmail = 2131099655;
@@ -124,8 +124,8 @@ namespace WKUACM
 			// aapt resource value: 0x7f060012
 			public const int PresidentEmail = 2131099666;
 			
-			// aapt resource value: 0x7f06001e
-			public const int SettingsButton = 2131099678;
+			// aapt resource value: 0x7f06001d
+			public const int SettingsButton = 2131099677;
 			
 			// aapt resource value: 0x7f060018
 			public const int Speaker = 2131099672;
@@ -133,17 +133,14 @@ namespace WKUACM
 			// aapt resource value: 0x7f060017
 			public const int SpeakerDescription = 2131099671;
 			
-			// aapt resource value: 0x7f060020
-			public const int SplashScreenLayout = 2131099680;
+			// aapt resource value: 0x7f06001f
+			public const int SplashScreenLayout = 2131099679;
 			
 			// aapt resource value: 0x7f060013
 			public const int Text = 2131099667;
 			
-			// aapt resource value: 0x7f060023
-			public const int acmLogo = 2131099683;
-			
-			// aapt resource value: 0x7f06001d
-			public const int button2 = 2131099677;
+			// aapt resource value: 0x7f060022
+			public const int acmLogo = 2131099682;
 			
 			// aapt resource value: 0x7f06000b
 			public const int imageView1 = 2131099659;
@@ -199,11 +196,11 @@ namespace WKUACM
 			// aapt resource value: 0x7f060011
 			public const int textView9 = 2131099665;
 			
-			// aapt resource value: 0x7f06001f
-			public const int toggleButton1 = 2131099679;
+			// aapt resource value: 0x7f06001e
+			public const int toggleButton1 = 2131099678;
 			
-			// aapt resource value: 0x7f060022
-			public const int wkuLogo = 2131099682;
+			// aapt resource value: 0x7f060021
+			public const int wkuLogo = 2131099681;
 			
 			static Id()
 			{
