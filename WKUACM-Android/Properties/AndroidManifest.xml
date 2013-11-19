@@ -3,4 +3,6 @@
 	<uses-sdk android:minSdkVersion="8" android:targetSdkVersion="16" />
 	<application android:theme="@android:style/Theme.NoTitleBar" android:label="ACM Connect"></application>
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_CALENDAR" />
+	<uses-permission android:name="android.permission.READ_CALENDAR" />
 </manifest>

@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using Android.App;
 using Android.Content;
 using Android.Runtime;
@@ -63,8 +63,8 @@ namespace WKUACM
 
 			Intent intent = new Intent (Intent.ActionEdit);
 			intent.SetType ("vnd.android.cursor.item/event");
-			intent.PutExtra("Title", "ACM Meeting");
-			intent.PutExtra ("Description", "Date:" + t.Date + " Location:" + t.Location);
+			intent.PutExtra ("title", "ACM Meeting");
+			intent.PutExtra ("description", "There is an ACM meeting on " + t.Date + " at " + t.Location );
 			StartActivity (intent);
 		}
     }
