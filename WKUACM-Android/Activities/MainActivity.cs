@@ -7,6 +7,7 @@ using Android.Widget;
 using Android.OS;
 using System.Collections.Generic;
 using WKUACM.Activities;
+using System.Globalization;
 
 namespace WKUACM
 {
@@ -59,6 +60,12 @@ namespace WKUACM
 		{
 			var listView = sender as ListView;
 			var t = tableItems[e.Position];
+
+			Intent intent = new Intent (Intent.ActionEdit);
+			intent.SetType ("vnd.android.cursor.item/event");
+			intent.PutExtra("Title", "ACM Meeting");
+			intent.PutExtra ("Description", "Date:" + t.Date + " Location:" + t.Location);
+			StartActivity (intent);
 		}
     }
 }
